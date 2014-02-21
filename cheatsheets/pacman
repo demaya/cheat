@@ -30,6 +30,9 @@ pacman -Qe
 # To list orphan packages (installed as dependencies and not required anymore)
 pacman -Qdt
 
+# To clean local package storage
+pacman -Scc
+
 
 # You can't directly install packages from the Arch User Database (AUR) with pacman.
 # You need yaourt to perform that. But considering yaourt itself is in the AUR, here is how to 
