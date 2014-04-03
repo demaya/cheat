@@ -1,2 +1,2 @@
 # Return A record of a DNS Adress without any other information
-dig mayach.de A +short
+dig domain.com A +short
